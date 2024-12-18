@@ -7,7 +7,8 @@ set :views, '/Users/shibuya/Documents/就活/speee/routes'
 get '/' do
   content_type :json
   num = params[:num].to_i
-
+  erb :pages
+  
   if num > 8695
     status 413
     { error: "数が大きすぎます。8695以下を入力してください" }.to_json
