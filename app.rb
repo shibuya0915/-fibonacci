@@ -2,7 +2,7 @@ require 'sinatra'
 require 'json'
 require_relative 'routes/fibonacci'
 
-set :views, '/Users/shibuya/Documents/就活/speee/routes'
+set :views, 'views'
 
 get '/' do
   erb :pages
