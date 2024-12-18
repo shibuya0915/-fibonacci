@@ -4,7 +4,7 @@ require_relative 'routes/fibonacci'
 
 set :views, '/Users/shibuya/Documents/就活/speee/routes'
 
-post '/submit' do
+post '/' do
   content_type :json
   num = params[:num].to_i
 
