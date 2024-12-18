@@ -8,7 +8,7 @@ get '/' do
   erb :pages
 end
 
-post '/' do
+post '/submit' do
   content_type :json
   num = params[:num].to_i
 
