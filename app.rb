@@ -5,6 +5,10 @@ require_relative 'routes/fibonacci'
 set :views, '/Users/shibuya/Documents/就活/speee/routes'
 
 get '/' do
+  erb :pages
+end
+
+post '/' do
   content_type :json
   num = params[:num].to_i
 
