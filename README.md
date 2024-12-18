@@ -4,7 +4,7 @@
 * 使用言語
   * Ruby 3.3.4
 * 使用フレームワーク
-  * sinatra
+  * sinatra (4.1.1)
 * 使用サーバー
   * render.com
 * ユニットテスト
