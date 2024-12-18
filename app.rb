@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'json'
+require 'sinatra/json' 
 require_relative 'routes/fibonacci'
 
 set :views, 'views'
@@ -10,7 +11,14 @@ end
 
 post '/submit' do
   content_type :json
-  num = params[:num].to_i
+  num = params[:num]
+
+  begin
+    num = Integer(num)
+  rescue ArgumentError
+    status 400
+    return { error: "数値を入力してください" }.to_json
+  end
 
   if num > 8695
     status 413

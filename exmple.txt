@@ -1,0 +1,2 @@
+curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d 'num=12' https://fib-api-8nnm.onrender.com/submit
+{"result":144}
