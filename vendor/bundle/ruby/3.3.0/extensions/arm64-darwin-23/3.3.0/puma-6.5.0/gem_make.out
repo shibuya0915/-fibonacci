@@ -26,18 +26,18 @@ checking for Random.bytes... yes
 creating Makefile
 
 current directory: /Users/shibuya/Documents/就活/speee/vendor/bundle/ruby/3.3.0/gems/puma-6.5.0/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20241217-29927-e5lial sitelibdir\=./.gem.20241217-29927-e5lial clean
+make DESTDIR\= sitearchdir\=./.gem.20241219-79481-e3feq sitelibdir\=./.gem.20241219-79481-e3feq clean
 
 current directory: /Users/shibuya/Documents/就活/speee/vendor/bundle/ruby/3.3.0/gems/puma-6.5.0/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20241217-29927-e5lial sitelibdir\=./.gem.20241217-29927-e5lial
+make DESTDIR\= sitearchdir\=./.gem.20241219-79481-e3feq sitelibdir\=./.gem.20241219-79481-e3feq
 compiling http11_parser.c
 compiling mini_ssl.c
 compiling puma_http11.c
 linking shared-object puma/puma_http11.bundle
 
 current directory: /Users/shibuya/Documents/就活/speee/vendor/bundle/ruby/3.3.0/gems/puma-6.5.0/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20241217-29927-e5lial sitelibdir\=./.gem.20241217-29927-e5lial install
-/opt/homebrew/bin/ginstall -c -m 0755 puma_http11.bundle ./.gem.20241217-29927-e5lial/puma
+make DESTDIR\= sitearchdir\=./.gem.20241219-79481-e3feq sitelibdir\=./.gem.20241219-79481-e3feq install
+/opt/homebrew/bin/ginstall -c -m 0755 puma_http11.bundle ./.gem.20241219-79481-e3feq/puma
 
 current directory: /Users/shibuya/Documents/就活/speee/vendor/bundle/ruby/3.3.0/gems/puma-6.5.0/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20241217-29927-e5lial sitelibdir\=./.gem.20241217-29927-e5lial clean
+make DESTDIR\= sitearchdir\=./.gem.20241219-79481-e3feq sitelibdir\=./.gem.20241219-79481-e3feq clean

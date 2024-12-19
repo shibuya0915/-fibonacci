@@ -13,12 +13,12 @@ NULLCMD = :
 #### Start of system configuration section. ####
 
 srcdir = .
-topdir = /Users/shibuya/.rbenv/versions/3.3.4/include/ruby-3.3.0
+topdir = /Users/shibuya/.asdf/installs/ruby/3.3.4/include/ruby-3.3.0
 hdrdir = $(topdir)
-arch_hdrdir = /Users/shibuya/.rbenv/versions/3.3.4/include/ruby-3.3.0/arm64-darwin24
+arch_hdrdir = /Users/shibuya/.asdf/installs/ruby/3.3.4/include/ruby-3.3.0/arm64-darwin23
 PATH_SEPARATOR = :
 VPATH = $(srcdir):$(arch_hdrdir)/ruby:$(hdrdir)/ruby
-prefix = $(DESTDIR)/Users/shibuya/.rbenv/versions/3.3.4
+prefix = $(DESTDIR)/Users/shibuya/.asdf/installs/ruby/3.3.4
 rubysitearchprefix = $(rubylibprefix)/$(sitearch)
 rubyarchprefix = $(rubylibprefix)/$(arch)
 rubylibprefix = $(libdir)/$(RUBY_BASE_NAME)
@@ -106,7 +106,7 @@ RUBY_VERSION_NAME = $(RUBY_BASE_NAME)-$(ruby_version)
 RUBYW_BASE_NAME = rubyw
 RUBY_BASE_NAME = ruby
 
-arch = arm64-darwin24
+arch = arm64-darwin23
 sitearch = $(arch)
 ruby_version = 3.3.0
 ruby = $(bindir)/$(RUBY_BASE_NAME)

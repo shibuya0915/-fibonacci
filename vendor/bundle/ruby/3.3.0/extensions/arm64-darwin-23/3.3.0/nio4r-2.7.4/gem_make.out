@@ -14,10 +14,10 @@ checking for sys/resource.h... yes
 creating Makefile
 
 current directory: /Users/shibuya/Documents/就活/speee/vendor/bundle/ruby/3.3.0/gems/nio4r-2.7.4/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20241217-29927-xdn6j3 sitelibdir\=./.gem.20241217-29927-xdn6j3 clean
+make DESTDIR\= sitearchdir\=./.gem.20241219-79481-e72m5j sitelibdir\=./.gem.20241219-79481-e72m5j clean
 
 current directory: /Users/shibuya/Documents/就活/speee/vendor/bundle/ruby/3.3.0/gems/nio4r-2.7.4/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20241217-29927-xdn6j3 sitelibdir\=./.gem.20241217-29927-xdn6j3
+make DESTDIR\= sitearchdir\=./.gem.20241219-79481-e72m5j sitelibdir\=./.gem.20241219-79481-e72m5j
 compiling bytebuffer.c
 compiling monitor.c
 compiling nio4r_ext.c
@@ -360,8 +360,8 @@ compiling selector.c
 linking shared-object nio4r_ext.bundle
 
 current directory: /Users/shibuya/Documents/就活/speee/vendor/bundle/ruby/3.3.0/gems/nio4r-2.7.4/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20241217-29927-xdn6j3 sitelibdir\=./.gem.20241217-29927-xdn6j3 install
-/opt/homebrew/bin/ginstall -c -m 0755 nio4r_ext.bundle ./.gem.20241217-29927-xdn6j3
+make DESTDIR\= sitearchdir\=./.gem.20241219-79481-e72m5j sitelibdir\=./.gem.20241219-79481-e72m5j install
+/opt/homebrew/bin/ginstall -c -m 0755 nio4r_ext.bundle ./.gem.20241219-79481-e72m5j
 
 current directory: /Users/shibuya/Documents/就活/speee/vendor/bundle/ruby/3.3.0/gems/nio4r-2.7.4/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20241217-29927-xdn6j3 sitelibdir\=./.gem.20241217-29927-xdn6j3 clean
+make DESTDIR\= sitearchdir\=./.gem.20241219-79481-e72m5j sitelibdir\=./.gem.20241219-79481-e72m5j clean
