@@ -43,4 +43,8 @@
 
 
 ## エンドポイントURL
-  * https://fib-api-8nnm.onrender.com/submit/
+  * webアプリケーション
+    * https://fib-api-8nnm.onrender.com
+  
+  * HTTPリクエスト
+    * https://fib-api-8nnm.onrender.com/submit/
