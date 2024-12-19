@@ -8,7 +8,7 @@
 * 使用サーバー
   * render.com
 * ユニットテスト
- * RSpec 3.13
+  * RSpec 3.13
 
 ## ファイル構成
   * fibonacci.rb
