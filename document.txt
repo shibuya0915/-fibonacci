@@ -1,0 +1,17 @@
+・ソースコードの構成
+
+speee/routes/fibonacci.rb
+            /result.erb
+
+speee/views/pages.erb
+
+speee/app.rb
+
+
+・概要説明
+入力したn番目のフィボナッチ数を返すAPIである。
+例えば n = 12 ならば12番目の　"144"　と返す。
+nは整数であり、0以下や文字や少数を入力するとエラーを返す。
+エラーコードは、"status 400"　もしくは　"status 413"　で返す。
+nは以下の制約でのみ実行される。
+    1 <= n <= 8656 
