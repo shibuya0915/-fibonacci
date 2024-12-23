@@ -12,5 +12,3 @@ gem "puma", "~> 6.5"
 
   gem 'rspec'
   gem 'rack-test' 
-
-  gem 'sinatra-contrib'

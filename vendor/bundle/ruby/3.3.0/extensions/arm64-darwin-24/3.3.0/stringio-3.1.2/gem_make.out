@@ -1,0 +1,18 @@
+current directory: /Users/shibuya/Documents/就活/speee/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.2/ext/stringio
+/Users/shibuya/.rbenv/versions/3.3.4/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/shibuya/Documents/就活/speee/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.2/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20241223-6302-f0k78l sitelibdir\=./.gem.20241223-6302-f0k78l clean
+
+current directory: /Users/shibuya/Documents/就活/speee/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.2/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20241223-6302-f0k78l sitelibdir\=./.gem.20241223-6302-f0k78l
+compiling stringio.c
+linking shared-object stringio.bundle
+
+current directory: /Users/shibuya/Documents/就活/speee/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.2/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20241223-6302-f0k78l sitelibdir\=./.gem.20241223-6302-f0k78l install
+/opt/homebrew/bin/ginstall -c -m 0755 stringio.bundle ./.gem.20241223-6302-f0k78l
+
+current directory: /Users/shibuya/Documents/就活/speee/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.2/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20241223-6302-f0k78l sitelibdir\=./.gem.20241223-6302-f0k78l clean

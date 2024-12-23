@@ -9,7 +9,7 @@ get '/' do
   erb :pages
 end
 
-post '/submit' do
+def fibo (num)
   content_type :json
   num = params[:num]
 
@@ -31,4 +31,14 @@ post '/submit' do
     status 400
     { error: "1以上を入力してください" }.to_json
   end
+end
+
+get '/fib' do
+  content_type :json
+  fibo(params[:num])
+end
+
+post '/fib' do
+  content_type :json
+  fibo(params[:num])
 end
