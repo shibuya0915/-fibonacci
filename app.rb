@@ -23,7 +23,7 @@ def fibo (num)
   if num > 8695
     status 413
     { error: "数が大きすぎます。8695以下を入力してください" }.to_json
-  elsif num > 1
+  elsif num >= 1
     fibonacci = Fibonacci.new
     result = fibonacci.fib(num)
   { result: result}.to_json
