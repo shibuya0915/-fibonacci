@@ -38,7 +38,7 @@ get '/fib' do
   fibo(params[:num])
 end
 
-post '/fib' do
-  content_type :json
-  fibo(params[:num])
-end
+# post '/fib' do
+#   content_type :json
+#   fibo(params[:num])
+# end
