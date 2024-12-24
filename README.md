@@ -47,4 +47,4 @@
     * https://fib-api-8nnm.onrender.com
   
   * HTTPリクエスト
-    * https://fib-api-8nnm.onrender.com/submit/
+    * https://fib-api-8nnm.onrender.com/fib/
